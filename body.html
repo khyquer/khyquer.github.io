@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Título da página</title>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="Aula de HTML - Head">
+    <meta name="author" content="Khyquer Ronaldy">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/icons8-favicon-48.png">    
+    <style>
+      body { background-color: powderblue; font-family: Arial, sans-serif; }
+      h1 { color: red; }
+      p { color: blue; }
+      table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+      th, td { border: 1px solid black; padding: 8px; text-align: left; }
+      th { background-color: lightgray; }
+      .destaque { color: green; font-weight: bold; }
+      .container { background-color: white; padding: 20px; border-radius: 10px; }
+    </style>
+  </head>
+  <body>
+
+    <!-- Cabeçalhos -->
+    <h1>Bem-vindo à Minha Página</h1>
+    <h2>Subtítulo Nível 2</h2>
+    <h3>Subtítulo Nível 3</h3>
+    <h4>Subtítulo Nível 4</h4>
+    <h5>Subtítulo Nível 5</h5>
+    <h6>Subtítulo Nível 6</h6>
+
+    <!-- Parágrafo com span -->
+    <p>Este é um <span class="destaque">parágrafo</span> de exemplo com um trecho destacado.</p>
+
+    <!-- Link -->
+    <p>Visite meu <a href="https://www.exemplo.com" target="_blank">site favorito</a>.</p>
+
+    <!-- Imagem -->
+    <img src="https://via.placeholder.com/150" alt="Imagem de exemplo">
+
+    <!-- Div como container -->
+    <div class="container">
+      <h2>Seção dentro de uma Div</h2>
+      <p>Esta é uma <span class="destaque">div</span> contendo um conteúdo organizado.</p>
+    </div>
+
+    <!-- Tabela -->
+    <table>
+      <tr>
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>Cidade</th>
+      </tr>
+      <tr>
+        <td>João</td>
+        <td>25</td>
+        <td>São Paulo</td>
+      </tr>
+      <tr>
+        <td>Maria</td>
+        <td>30</td>
+        <td>Rio de Janeiro</td>
+      </tr>
+    </table>
+
+    <!-- Formulário -->
+    <form action="#" method="post">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+      <br><br>
+      
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+      <br><br>
+
+      <label for="mensagem">Mensagem:</label><br>
+      <textarea id="mensagem" name="mensagem" rows="4" cols="30"></textarea>
+      <br><br>
+
+      <input type="submit" value="Enviar">
+    </form>
+
+  </body>
+</html>
