@@ -1,0 +1,26 @@
+* {
+    background-color: gray
+}
+
+#titulo1{
+  color: white;
+}
+#titulo2{
+  color: yellow;
+}
+
+.titulo{
+  font-size:50px;
+}
+
+.paragrafos{
+  color: black;
+  background-color: gray;
+}
+
+h1{
+  margin: 30px
+}
+a[target="_blank"] {
+  color: white;
+}
