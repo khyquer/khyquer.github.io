@@ -8,11 +8,15 @@
 <body>
     <h1>Músicas Favoritas</h1>
     <form method="post" action="https://formtester.goodbytes.be/post.php">
-        <label for="nomeMusica">Nome da Música</label>
-        <input type='text' id="nomeMusica" name="nomeMusica" />
+        <fieldset>
+            <label for="nomeMusica">Nome da Música</label>
+            <input type='text' id="nomeMusica" name="nomeMusica" />
+        </fieldset>
 
-        <label for="nomeArtista">Nome do Artista</label>
-        <input type='text' id="nomeArtista" name="nomeArtista" />
+        <div>
+            <label for="nomeArtista">Nome do Artista</label>
+            <input type='text' id="nomeArtista" name="nomeArtista" />
+        </div>
 
         <label for="senha">Senha</label>
         <input type='password' id="senha" name="senha" />
